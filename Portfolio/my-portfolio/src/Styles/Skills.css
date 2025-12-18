@@ -1,0 +1,54 @@
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill-name {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.progress {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 6px;
+
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.4s ease;
+}
+
+.skill:hover .progress {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 6px;
+  width: 0;
+  transition: width 0.6s ease;
+}
+
+/* Skill percentages */
+.skill:hover .java {
+  width: 85%;
+  background-color: #f89820;
+}
+
+.skill:hover .react {
+  width: 75%;
+  background-color: #61dafb;
+}
+
+.skill:hover .spring {
+  width: 65%;
+  background-color: #6db33f;
+}
+
+.skill:hover .js {
+  width: 70%;
+  background-color: #f7df1e;
+}

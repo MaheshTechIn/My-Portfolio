@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <div className="home">
        <Hero />
-       <About />
-       <Skills />
+       
+       <div className='home-cards'>
+        <About />
+        <Skills />
+       </div>
     </div>
   );
 } 

@@ -44,6 +44,41 @@
     background-color 0.2s ease;
 }
 
+/* .home-cards {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+} */
+.home-cards {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+
+  /* align-items: flex-start;   🔥 VERY IMPORTANT */
+}
+
+/* .about,
+.skills {
+  width: 100%;
+  max-width: 500px;   
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(230, 11, 11, 0.08);
+}
+ */
+.about,
+.skills {
+   width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+ 
+}
+
+
 /* Hover animation */
 .buttons a:hover {
   transform: translateY(-3px);

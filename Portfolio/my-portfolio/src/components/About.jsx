@@ -4,7 +4,8 @@ export default function About(){
             <h2>About Me 🙋‍♂️</h2>
 
             <p>
-               A dedicated undergraduate pursuing a B.Tech in Computer Science and Engineering, aspiring to build a career as a Software Developer.
+               A dedicated undergraduate pursuing a B.Tech in Computer Science and Engineering, aspiring to build a career 
+               as a Software Developer.
                Gained 4 months of hands-on experience as a Frontend Developer Intern, strengthening skills in building responsive and user-friendly applications. Passionate about technology, problem-solving, and eager to contribute to innovative software solutions.
             </p>
 
