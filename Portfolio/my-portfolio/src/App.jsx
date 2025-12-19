@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import { NavLink } from 'react-router-dom';
 import './Styles/Navbar.css';
 import './App.css';
+import './Styles/Theme.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 export default function App() {
@@ -27,11 +28,10 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+        
         </div>
-
-        <div >
           <Footer theme={theme} toggleTheme={toggleTheme} />
-        </div>
+
       </div> 
   );
 }
