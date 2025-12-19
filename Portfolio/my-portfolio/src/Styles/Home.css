@@ -9,19 +9,18 @@
 }
 
 .hero h1{
+    color: rgb(192, 0, 0);
     font-size: 3rem;
     margin-bottom: 20px;
 }
-.hero h1 span{
-    color: #facc15;
-}
+
 .hero h2{
     font-size: 1.5rem;
-    color: #dddddd;
+    color: #9f9e9e;
 }
 .hero p{
     font-size: 1.2rem;
-    color: #dddddd;
+    color: #a18a8a;
     max-width: 600px;
     margin: auto;
 }
@@ -44,32 +43,17 @@
     background-color 0.2s ease;
 }
 
-/* .home-cards {
-  display: flex;
-  gap: 2rem;
-  margin-top: 3rem;
-} */
+ 
 .home-cards {
   display: flex;
   gap: 2rem;
   margin-top: 3rem;
-
-  /* align-items: flex-start;   🔥 VERY IMPORTANT */
+ 
 }
 
-/* .about,
-.skills {
-  width: 100%;
-  max-width: 500px;   
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(230, 11, 11, 0.08);
-}
- */
 .about,
 .skills {
-   width: 100%;
+  width: 100%;
   max-width: 500px;
   background: #ffffff;
   padding: 2rem;

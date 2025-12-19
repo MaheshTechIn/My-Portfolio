@@ -7,14 +7,19 @@ import { NavLink } from 'react-router-dom';
 import './Styles/Navbar.css';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 export default function App() {
+  const [theme, setTheme] = React.useState('dark');
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
+  }
+
   return (
       <div className="app-container">
 
         {/* Navigation Sticky at top */}
         <Navbar /> 
        
-
         {/* Content below navbar */}
         <div className="content">
           <Routes>
@@ -22,6 +27,10 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+        </div>
+
+        <div >
+          <Footer theme={theme} toggleTheme={toggleTheme} />
         </div>
       </div> 
   );

@@ -31,6 +31,19 @@ export default function Skills() {
           <div className="progress-bar js"></div>
         </div>
       </div>
+
+       <div className="skill">
+        <span className="skill-name">Java</span>
+        <div className="progress">
+          <div className="progress-bar java"></div>
+        </div>
+      </div>
+       <div className="skill">
+        <span className="skill-name">Java</span>
+        <div className="progress">
+          <div className="progress-bar java"></div>
+        </div>
+      </div>
     </section>
   );
 }
