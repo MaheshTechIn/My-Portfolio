@@ -2,18 +2,19 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import { NavLink } from 'react-router-dom';
-import './Styles/Navbar.css';
-import './App.css';
-import './Styles/Theme.css';
+import Contact from './pages/Contact';  
+import './App.css'; 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/Footer'; 
+
 export default function App() {
   const [theme, setTheme] = React.useState('dark');
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   }
+  React.useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
 
   return (
       <div className="app-container">
@@ -25,7 +26,7 @@ export default function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         

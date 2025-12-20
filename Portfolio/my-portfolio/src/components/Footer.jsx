@@ -1,5 +1,5 @@
 import '../Styles/Footer.css';
-
+import '../Styles/Theme.css';
 export default function Footer({ theme, toggleTheme }) {
   return (
     <footer className="footer">

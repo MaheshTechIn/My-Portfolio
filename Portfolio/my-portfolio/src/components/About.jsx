@@ -17,6 +17,5 @@ export default function About(){
                 <li><strong>Languages:</strong> English, Telugu, Hindi</li>
             </ul>
         </section>
-
     )
 }
