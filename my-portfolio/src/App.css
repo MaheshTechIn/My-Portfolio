@@ -1,0 +1,27 @@
+.content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body #root{
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  background: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color); 
+  color: orange;
+}
+
+/* This pushes footer down */
+.content {
+  flex: 1;
+  padding: 2rem;
+}
