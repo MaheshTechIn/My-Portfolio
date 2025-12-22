@@ -1,0 +1,48 @@
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Name animation */
+.hero-name {
+  font-size: 3rem;
+  font-weight: 700;
+  animation: fadeSlide 1.2s ease forwards;
+}
+
+.hero-name span {
+  color: var(--accent);
+}
+.hero-name span {
+  background: linear-gradient(90deg, #38bdf8, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sub text animation delay */
+.hero-role {
+  margin-top: 1rem;
+  opacity: 0;
+  animation: fadeSlide 1.2s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.hero-tagline {
+  margin-top: 0.8rem;
+  opacity: 0;
+  animation: fadeSlide 1.2s ease forwards;
+  animation-delay: 0.6s;
+}
+
+/* Animation */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -2,7 +2,7 @@ import '../styles/Skills.css';
 export default function Skills() {
   return (
     <section className="skills">
-      <h2>Skills ⚙️</h2>
+      <h2>Skills</h2>
 
       <div className="skill">
         <span className="skill-name">Java</span>

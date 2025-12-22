@@ -1,15 +1,35 @@
 .about {
   margin-top: 3rem;
   max-width: 800px;
+
 }
- 
+.about:hover {
+  box-shadow: #bab7b7 0px 8px 25px  ;
+}
+.about p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #c7c7c7;
+  font-family: 'Inter', system-ui, sans-serif;
+
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f7df1e;
+  font-family: 'Poppins', sans-serif;
+}
 .about-list li {
   margin-bottom: 0.6rem;
   font-size: 1rem;
+  color: #DBE2EF;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .about strong {
-  color: #11f430; /* soft yellow accent */
+  color: #fffefe;  
+  font-family: 'Poppins', sans-serif;
 }
 
 .about-list {

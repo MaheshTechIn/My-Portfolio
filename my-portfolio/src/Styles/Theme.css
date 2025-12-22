@@ -1,17 +1,17 @@
 /* Light Theme */
 :root {
   --bg-color: #ffffff;
-  --text-color: #eeff02;
+  --text-color: #eeff02;  
   --card-bg: #eeff00;
-  --accent: #ef0c0c;
+  --accent: #1bb9a4;
 }
 
 /* Dark Theme */
 [data-theme="dark"] {
-  --bg-color: #111;
+  --bg-color: #112D4E;
   --text-color: #005701;
   --card-bg: #d9ff00;
-  --accent: #c41414;
+  --accent: #f523b9;
 }
 
 
