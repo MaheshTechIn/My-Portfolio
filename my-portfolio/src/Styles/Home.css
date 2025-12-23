@@ -54,16 +54,43 @@
  
 }
 
-.about,
+/* .about,
 .skills {
   width: 100%;
   max-width: 100px;
   background: #000000;
   padding: 2rem;
   border-radius: 12px;
+  border-top: 6px solid #facc15;
   box-shadow: 0 8px 20px rgba(84, 119, 146, 0.08);
  
+} */
+ .about,
+.skills {
+  width: 100%;
+  max-width: 500px;
+  background: #000000;
+  padding: 2rem;
+  border-radius: 12px;
+
+  /* No shadow by default */
+  box-shadow: none;
+
+  /* Smooth animation */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  /* Optional top accent */
+  border-top: 6px solid #facc15;
 }
+
+/* Bottom-only shadow on hover */
+.about:hover,
+.skills:hover {
+  box-shadow: 0 18px 30px -18px rgba(250, 204, 21, 0.6);
+  transform: translateY(-4px);
+}
+
+ 
 
 
 /* Hover animation */
@@ -76,7 +103,9 @@
 .primary {
   /* background-color: #facc15; */
   border: 2px solid #facc15;
-  color: #F9F7F7;
+  background-color: #9d9c9c;
+  color: #facc15;
+  border-left: 6px solid #facc15;
 }
 
 .primary:hover {
@@ -87,7 +116,9 @@
 /* Secondary button */
 .secondary {
   border: 2px solid #facc15;
-  color: #F9F7F7;
+  background-color: #9d9c9c;
+  color: #facc15;
+  border-left: 6px solid #facc15;
 }
 
 .secondary:hover {
