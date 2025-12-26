@@ -14,7 +14,7 @@ export default function Footer({ theme, toggleTheme }) {
       <div className="footer-links">
         <a href="/">Home</a>
         <a href="/projects">Projects</a>
-        <a href="/contact">Contact</a>
+        <a href="https://leetcode.com/u/maheshbabu_9/">Leetcode</a>
       </div>
 
       {/* Right */}

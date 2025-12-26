@@ -6,9 +6,9 @@
   gap: 2rem;
   padding: 2.5rem;
   background: var(--card-bg);
-  background-color: bisque;
+  background-color: rgb(220, 217, 215);
   color: var(--text-color);
-  border-top: 11px solid rgba(239, 0, 0, 0.1);
+  border-top: 6px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer-brand h3 {
